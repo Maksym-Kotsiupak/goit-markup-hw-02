@@ -1,0 +1,91 @@
+:root {
+    --primery-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #404BBF;
+    --back-graund-butt-color: #4D5AE5;
+    --butt-wh-text: #ffffff;
+}
+
+
+
+
+body {
+    background-color: var(--butt-wh-text);
+}
+ul{
+    list-style: none;
+}
+/* header */
+.logo{
+    color: var(--title-text-color);
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color);
+}
+.site-nav .link .current{
+    color: var(--accent-color) ;
+}
+
+.nav-list {
+    color: var(--primery-text-color);
+}
+.nav-list:hover,
+.nav-list:focus{
+    color: var(--accent-color);
+}
+
+
+/* hero */
+.hero-title{
+    color:var(--title-text-color);
+}
+
+/* main */
+.section-title {
+color: var(--title-text-color);
+}
+
+
+
+
+/* sectio 1 */
+.feature-list .title {
+color: var(--title-text-color);
+}
+.title .text {
+    color: var(--primery-text-color);
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* buttons */
+button {
+    color: var(--butt-wh-text);
+    background-color: var(--back-graund-butt-color);
+}
+.button.pr {
+    color: var(--back-graund-butt-color);
+    background-color: var(--butt-wh-text);
+}
+.button.pr:hover,
+.button.pr:focus {
+    color: var(--butt-wh-text);
+        background-color: var(--back-graund-butt-color);
+}
+.button.he {
+    color: var(--butt-wh-text);
+        background-color: var(--back-graund-butt-color);
+}

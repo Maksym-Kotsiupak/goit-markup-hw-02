@@ -11,6 +11,8 @@
 
 body {
     background-color: var(--butt-wh-text);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
 }
 ul{
     list-style: none;
@@ -18,9 +20,21 @@ ul{
 /* header */
 .logo{
     color: var(--title-text-color);
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
 }
+/* .logo:hover,
+.logo:focus{
+
+} */
 .site-nav .link {
     color: var(--title-text-color);
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -30,34 +44,60 @@ color: var(--accent-color);
     color: var(--accent-color) ;
 }
 
-.nav-list {
+.auth-nav .nav-list {
     color: var(--primery-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
 }
-.nav-list:hover,
-.nav-list:focus{
+.auth-nav .nav-list:hover,
+.auth-nav .nav-list:focus{
     color: var(--accent-color);
 }
 
 
 /* hero */
 .hero-title{
-    color:var(--title-text-color);
+    color:var(--butt-wh-text);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
 }
 
 /* main */
+/* h2 */
 .section-title {
 color: var(--title-text-color);
+font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
 }
-
+/* h3 */
+.title{
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--title-text-color);
+}
 
 
 
 /* sectio 1 */
-.feature-list .title {
-color: var(--title-text-color);
-}
-.title .text {
+/* p */
+.title-text {
     color: var(--primery-text-color);
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
 }
  
 
@@ -88,4 +128,9 @@ button {
 .button.he {
     color: var(--butt-wh-text);
         background-color: var(--back-graund-butt-color);
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
 }

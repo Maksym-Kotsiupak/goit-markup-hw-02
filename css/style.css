@@ -43,6 +43,10 @@ ul{
         color: var(--title-text-color);
 
 }
+.link:hover,
+.link:focus{
+    color: var(--accent-color);
+}
 /* .logo:hover,
 .logo:focus{
 

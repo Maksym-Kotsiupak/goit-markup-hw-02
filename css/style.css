@@ -147,7 +147,18 @@ font-family: 'Roboto';
 .foot{
     background-color: var(--title-text-color);
 }
-
+.foot-text{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+.studiof{
+    color: #F4F4FD;
+}
 
 
 

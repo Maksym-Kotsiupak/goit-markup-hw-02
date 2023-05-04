@@ -19,7 +19,7 @@ ul{
     list-style: none;
 }
 /* header */
-.logo{
+.logo.link {
     color: var(--back-graund-butt-color);
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -32,6 +32,17 @@ ul{
 .studio{
     color: var(--title-text-color);
 }
+.link{
+    text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-family: 'Roboto', sans-serif;
+        color: var(--title-text-color);
+
+}
 /* .logo:hover,
 .logo:focus{
 
@@ -41,6 +52,7 @@ ul{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    list-style: none;
 }
 .site-nav .link {
     color: var(--title-text-color);
@@ -55,10 +67,9 @@ ul{
 .site-nav .link:focus {
 color: var(--accent-color);
 }
-.site-nav .link .current{
-    color: var(--accent-color) ;
+.auth-nav{
+    font-style: normal
 }
-
 .auth-nav .nav-list {
     color: var(--primery-text-color);
     font-family: 'Roboto';
@@ -127,6 +138,7 @@ font-family: 'Roboto';
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em
 }
  
 
@@ -173,14 +185,21 @@ button {
     color: var(--butt-wh-text);
     background-color: var(--back-graund-butt-color);
 }
-.button.pr {
+.button-portf {
     color: var(--back-graund-butt-color);
     background-color: var(--butt-wh-text);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
-.button.pr:hover,
-.button.pr:focus {
+.button-portf:hover,
+.button-portf:focus {
     color: var(--butt-wh-text);
         background-color: var(--back-graund-butt-color);
+        cursor: pointer;
 }
 .button-hero {
     color: var(--butt-wh-text);

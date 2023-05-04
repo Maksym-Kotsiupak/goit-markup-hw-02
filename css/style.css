@@ -13,28 +13,43 @@ body {
     background-color: var(--butt-wh-text);
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
+    color: var(--primery-text-color);
 }
 ul{
     list-style: none;
 }
 /* header */
 .logo{
-    color: var(--title-text-color);
-    font-family: 'Raleway';
+    color: var(--back-graund-butt-color);
+    font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+.studio{
+    color: var(--title-text-color);
 }
 /* .logo:hover,
 .logo:focus{
 
 } */
+.list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .site-nav .link {
     color: var(--title-text-color);
     font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -56,6 +71,11 @@ color: var(--accent-color);
 .auth-nav .nav-list:focus{
     color: var(--accent-color);
 }
+.list{
+    list-style: none;
+
+}
+
 
 
 /* hero */
@@ -68,9 +88,14 @@ color: var(--accent-color);
         line-height: 60px;
         text-align: center;
         letter-spacing: 0.02em;
+        line-height: 1.07
+}
+.hero{
+    background-color: var(--title-text-color);
 }
 
-/* main */
+
+
 /* h2 */
 .section-title {
 color: var(--title-text-color);
@@ -88,6 +113,7 @@ font-family: 'Roboto';
         color: var(--title-text-color);
 }
 
+/* main index */
 
 
 /* sectio 1 */
@@ -125,12 +151,18 @@ button {
     color: var(--butt-wh-text);
         background-color: var(--back-graund-butt-color);
 }
-.button.he {
+.button-hero {
     color: var(--butt-wh-text);
         background-color: var(--back-graund-butt-color);
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
+            letter-spacing: 0.04em;
+}
+.button-hero:hover,
+.button-hero:focus{
+    background-color: var(--accent-color);
+    cursor: pointer;
 }
